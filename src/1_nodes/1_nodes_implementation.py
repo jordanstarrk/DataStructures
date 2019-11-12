@@ -1,7 +1,8 @@
 # -----------------------------------------------------------
 # Python3 implementation of a Node class with 3 methods.
-# This can be used to implement more complex data structures
-# like LinkedLists, Stacks, Queues, etc.
+# This Node Class is used to implement more complex data 
+# structures in the same directory, such as LinkedLists, 
+# Stacks, Queues.
 #
 # author: Jordan Starr
 # email: jordanstarrk@gmail.com
