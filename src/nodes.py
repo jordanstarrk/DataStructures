@@ -23,21 +23,22 @@ class Node:
     return self.value
 
 # -----------------------------------------------------------
-# Here is an example of using the nodes. I create 3 Nodes,
-# link them together, and then remove the middle Node.
+# Uncomment below to see an example of using the nodes. 
+# I create 3 Nodes, link them together, and then remove the 
+# middle Node.
 # -----------------------------------------------------------
 
-# Create 3 Nodes.
-front = Node("front node")
-middle = Node("middle node")
-end = Node("end node")
+# # Create 3 Nodes.
+# front = Node("front node")
+# middle = Node("middle node")
+# end = Node("end node")
 
-#Link 3 Nodes.
-front.set_link_node(middle) # [front] --> [middle]
-middle.set_link_node(end) # [front] --> [middle] --> [end]
+# #Link 3 Nodes.
+# front.set_link_node(middle) # [front] --> [middle]
+# middle.set_link_node(end) # [front] --> [middle] --> [end]
 
-print(front.get_link_node().get_value()) # Print to see that the front Node is linked with the 'middle node'
+# print(front.get_link_node().get_value()) # Print to see that the front Node is linked with the 'middle node'
 
-#Remove the 'middle' node.
-front.set_link_node(end)
-print(front.get_link_node().get_value()) # Print to see that the front Node is linked with the end Node.
+# #Remove the 'middle' node.
+# front.set_link_node(end)
+# print(front.get_link_node().get_value()) # Print to see that the front Node is linked with the end Node.

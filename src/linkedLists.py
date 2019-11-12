@@ -4,20 +4,7 @@
 # author: Jordan Starr
 # email: jordanstarrk@gmail.com
 # -----------------------------------------------------------
-
-class Node:
-  def __init__(self, value, link_node=None):
-    self.value = value
-    self.link_node = link_node
-
-  def set_link_node(self, link_node):
-    self.link_node = link_node
-
-  def get_link_node(self):
-    return self.link_node
-
-  def get_value(self):
-    return self.value
+from nodes import Node
 
 class LinkedList:
   def __init__(self, value=None):
@@ -53,14 +40,14 @@ class LinkedList:
         else:
           current_node = next_node
 
+
 # -----------------------------------------------------------
-# Here is an example of using the LinkedList. I create the 
-# LinkedList with an initial node, and then add two Nodes to
-# the LinkedList.
+# Uncomment below to see an example of using the LinkedList. 
+# I create the LinkedList with an initial node, and then add 
+# two Nodes to the LinkedList.
 # -----------------------------------------------------------
 
-#Create LinkedList with an initial node, and insert two additional nodes. 
-linked_list_sample = LinkedList("initial node")
-linked_list_sample.insert_front_node("second node")
-linked_list_sample.insert_front_node("third node")
-print(linked_list_sample.string_list())
+# linked_list_sample = LinkedList("initial node")
+# linked_list_sample.insert_front_node("second node")
+# linked_list_sample.insert_front_node("third node")
+# print(linked_list_sample.string_list())
