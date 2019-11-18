@@ -2,8 +2,6 @@
 # Python3 implementation of a Queue class with 3 core methods
 # and 3 helper methods.
 #
-# author: Jordan Starr
-# email: jordanstarrk@gmail.com
 # -----------------------------------------------------------
 
 from nodes import Node
