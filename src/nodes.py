@@ -4,8 +4,6 @@
 # structures in the same directory, such as LinkedLists, 
 # Stacks, Queues.
 #
-# author: Jordan Starr
-# email: jordanstarrk@gmail.com
 # -----------------------------------------------------------
 
 class Node:
