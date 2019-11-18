@@ -19,3 +19,7 @@ Python 3.x and any text editor.
 ## Author
 
 * Jordan Starr
+
+## Acknowledgments
+
+* CodeAcademy 
