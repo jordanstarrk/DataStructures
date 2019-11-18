@@ -1,8 +1,6 @@
 # -----------------------------------------------------------
 # Python3 implementation of a LinkedList class with 4 methods.
 #
-# author: Jordan Starr
-# email: jordanstarrk@gmail.com
 # -----------------------------------------------------------
 from nodes import Node
 
