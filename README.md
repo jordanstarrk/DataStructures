@@ -7,7 +7,7 @@ Download the repository and get started. This project does not depend on any ext
 
 ### Prerequisites
 
-Python 3.6 and any text editor.
+Python 3.x and any text editor.
 
 ```
 1.Open /src
