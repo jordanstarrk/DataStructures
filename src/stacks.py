@@ -2,8 +2,6 @@
 # Python3 implementation of a Stack class with 3 core methods
 # and 2 helper methods.
 #
-# author: Jordan Starr
-# email: jordanstarrk@gmail.com
 # -----------------------------------------------------------
 from nodes import Node
 
