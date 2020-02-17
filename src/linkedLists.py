@@ -11,11 +11,23 @@ class LinkedList:
   def get_head_node(self):
     return self.head_node
   
+  def peek_head(self):
+    return self.head_node.get_value()
+  
   def insert_front_node(self, new_value):
     new_node = Node(new_value)
     new_node.set_link_node(self.head_node)
     self.head_node = new_node
-    
+  
+  def length_of_list_iterative(self):
+    count = 0
+    cur_node = self.head_node
+
+    while cur_node:
+      count += 1
+      cur_node = cur_node.get_link_node()
+      return count
+  
   def string_list(self):
     str_list = ""
     current_node = self.get_head_node()
