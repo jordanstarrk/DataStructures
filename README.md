@@ -1,5 +1,5 @@
 # DataStructures
-This project explores some common Data Structures and their implemtations in Python. These DataStructures can be enhanced and further optimized, but the purpose of this project is for exploratory purposes to get a deeper understanding of how some of these DataStructures work behind the scenes.
+This project explores some common Data Structures and their implemtations in Python. These Data Structures can be enhanced and further optimized, but the purpose of this project is for exploratory purposes to get a deeper understanding of how some of these DataStructures work behind the scenes.
 
 ## Getting Started
 
