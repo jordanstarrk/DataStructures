@@ -22,4 +22,4 @@ Python 3.x and any text editor.
 
 ## Acknowledgments
 
-* CodeAcademy 
+* Codecademy
